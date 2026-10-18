@@ -1,0 +1,67 @@
+loomx.loom_version="1.16-SNAPSHOT"
+
+mod.id = "cycle"
+mod.name = "Cycle"
+mod.group = "dev.doctorm4id"
+mod.version = "0.1.0"
+mod.channel_tag = "-alpha.1"
+mod.description = "An asymmetric survival-horror game for Minecraft: one killer, a team of survivors, and a set of generators."
+mod.authors = ["DoctorM4id"]
+mod.contributors = ["DoctorM4id"]
+mod.inception_year = "2026"
+mod.license.name = "MIT Code & ARR Assets"
+mod.license.url = "https://github.com/DoctorM4id/Cycle?tab=License-1-ov-file"
+mod.license.dist = "repo"
+mod.sources_url = "https://github.com/DoctorM4id/Cycle"
+mod.homepage_url = "https://github.com/DoctorM4id/Cycle"
+mod.issues_url = "https://github.com/DoctorM4id/Cycle/issues"
+mod.discord_url = "https://discord.doctorm4id.dev"
+[[mod.pom.developers]]
+id = "doctorm4id"
+name = "DoctorM4id"
+url = "https://github.com/doctorm4id"
+
+[fabric]
+deps.fabric-loader = "0.19.2"
+
+[fabric."1.20.1"]
+deps.minecraft = "1.20.1"
+deps.fabric-api = "0.92.9+1.20.1"
+deps.modmenu = "7.2.2"
+deps.fabric-language-kotlin = "1.13.13+kotlin.2.4.10"
+
+[fabric."1.21.1"]
+deps.minecraft = "1.21.1"
+deps.fabric-api = "0.116.13+1.21.1"
+deps.modmenu = "11.0.4"
+deps.fabric-language-kotlin = "1.13.13+kotlin.2.4.10"
+deps.veil = "1.21.1:4.5.2"
+deps.imguimc = "1.21.1:2.0.5"
+deps.cca = "6.1.3"
+
+[fabric."26.1.2"]
+deps.minecraft = "26.1.2"
+deps.fabric-api = "0.146.1+26.1.2"
+deps.modmenu = "18.0.0-alpha.8"
+deps.fabric-language-kotlin = "1.13.13+kotlin.2.4.10"
+publish.additionalVersions = ["26.1.1", "26.1"]
+
+[forge]
+
+[forge."1.20.1"]
+deps.minecraft = "1.20.1"
+deps.forge = "47.4.20"
+
+[neoforge]
+
+[neoforge."1.21.1"]
+deps.minecraft = "1.21.1"
+deps.neoforge = "21.1.242"
+deps.neoforge-language-kotlin = "5.12.0"
+deps.kambrik = "8.0.0-beta.2"
+
+[neoforge."26.1.2"]
+deps.minecraft = "26.1.2"
+deps.neoforge = "26.1.2.29-beta"
+publish.additionalVersions = ["26.1.1", "26.1"]
+deps.kambrik = "3.1.0-1.18"

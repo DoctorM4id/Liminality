@@ -1,0 +1,28 @@
+{
+  "package": "dev.doctorm4id.cycle.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ExampleMixin",
+    "LivingEntityMixin",
+    "ServerboundSetCarriedItemPacketMixin",
+    "ServerGamePacketListenerMixin",
+    "ServerPlayerMixin",
+    "client.LocalPlayerMixin",
+    "restrictions.MinecraftMixin"
+  ],
+  "client": [
+    "GuiMixin",
+    "client.HumanoidModelMixin",
+    "client.PlayerRendererMixin",
+    "qol.LevelRendererMixin",
+    "restrictions.EntityRendererMixin",
+    "restrictions.GameOptionsMixin",
+    "restrictions.KeyBindingMixin",
+    "restrictions.KeyboardMixin"
+  ]
+}

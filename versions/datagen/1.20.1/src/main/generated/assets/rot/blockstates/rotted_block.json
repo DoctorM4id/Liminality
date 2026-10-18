@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rot:block/rotted_block"
+    }
+  }
+}

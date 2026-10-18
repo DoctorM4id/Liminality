@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rot:block/rotted_slab"
+    },
+    "type=double": {
+      "model": "rot:block/rotted_block"
+    },
+    "type=top": {
+      "model": "rot:block/rotted_slab_top"
+    }
+  }
+}

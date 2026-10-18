@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "cycle:block/concrete"
+      },
+      {
+        "model": "cycle:block/concrete_mirrored"
+      },
+      {
+        "model": "cycle:block/concrete", "y": 180
+      },
+      {
+        "model": "cycle:block/concrete_mirrored", "y": 180
+      }
+    ]
+  }
+}
